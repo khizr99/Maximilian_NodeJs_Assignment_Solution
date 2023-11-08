@@ -20,7 +20,7 @@ const server = http.createServer((req,res) => {
         res.write('<html>');
         res.write('<head><title>List of dummy users</title></head>');
         res.write('<body><ul><li>User 1</li></ul><ul><li>User 2</li></ul><ul><li>User 3</li></ul></body>');
-        res.write('</html>');
+        res.write('</html>');    
         return res.end();
     }
 

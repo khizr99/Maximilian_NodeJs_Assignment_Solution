@@ -72,8 +72,8 @@ module.exports = path.dirname(process.mainModule.filename); or module.exports = 
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
+
 const userListRoutes = require('./routes/userList');
 const usersRoutes = require('./routes/users');
 
